@@ -1,0 +1,470 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "rating_VU7CnM": {
+          "type": "rating",
+          "disabled": true,
+          "settings": {}
+        },
+        "inventory_t4bL7e": {
+          "type": "inventory",
+          "settings": {
+            "text_style": "body",
+            "inventory_threshold": 10,
+            "show_inventory_quantity": true
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "complementary_3EjfQL": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Pairs well with",
+            "make_collapsible_row": true,
+            "icon": "price_tag",
+            "product_list_limit": 10,
+            "products_per_page": 3,
+            "pagination_style": "counter",
+            "image_ratio": "square",
+            "enable_quick_add": true
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": true
+          }
+        },
+        "sku_E9LK9J": {
+          "type": "sku",
+          "settings": {
+            "text_style": "body"
+          }
+        },
+        "icon_with_text_HkykTM": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "horizontal",
+            "icon_1": "heart",
+            "image_1": "shopify://shop_images/shipping.svg",
+            "heading_1": "Free shipping on orders $75+ and easy returns",
+            "icon_2": "return",
+            "image_2": "shopify://shop_images/genuine.svg",
+            "heading_2": "Authentic & 100% Genuine Products",
+            "icon_3": "truck",
+            "image_3": "shopify://shop_images/need-help.svg",
+            "heading_3": "24/7 Customer Support"
+          }
+        },
+        "collapsible_tab_rR4EH4": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Description",
+            "icon": "none",
+            "content": "{{ product.description }}",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "rating_VU7CnM",
+        "inventory_t4bL7e",
+        "price",
+        "complementary_3EjfQL",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "sku_E9LK9J",
+        "icon_with_text_HkykTM",
+        "collapsible_tab_rR4EH4"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-202290dc-0857-4169-81cd-25aa3c49d6d0",
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail_slider",
+        "mobile_thumbnails": "hide",
+        "media_position": "left",
+        "image_zoom": "none",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "image_with_text_fMeerb": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_8kRnA7": {
+          "type": "heading",
+          "settings": {
+            "heading": "What's Included",
+            "heading_size": "h1"
+          }
+        },
+        "text_xayWQL": {
+          "type": "text",
+          "settings": {
+            "text": "<ol><li>Vita Trio device </li><li>Exfoliating diamond tip </li><li>Pore extraction tip</li><li>Kinetic toning tip </li><li>50 replacement filters</li><li>Renew serum (4.5mL) </li><li>Brighten serum (4.5mL) </li><li>Refine serum (4.5mL)</li><li>USB-C charging cable </li><li>Storage case</li></ol>",
+            "text_style": "body"
+          }
+        },
+        "button_UncejR": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now",
+            "button_link": "shopify://products/vita-trio",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_8kRnA7",
+        "text_xayWQL",
+        "button_UncejR"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "custom_class": "home-image-text whats_included",
+        "image": "shopify://shop_images/images_3_b14f0135-d1bf-445b-89d7-936382a82189.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-202290dc-0857-4169-81cd-25aa3c49d6d0",
+        "color_scheme": "scheme-202290dc-0857-4169-81cd-25aa3c49d6d0",
+        "padding_top": 80,
+        "padding_bottom": 60
+      }
+    },
+    "multicolumn_KHU8Uw": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_Ptbkyn": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/clear-icon.png",
+            "title": "Clearer, more visibly-refined skin",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_yfLRwT": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/texture-icon.png",
+            "title": "More even skin texture",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_RPe4dd": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/hydrate-icon.png",
+            "title": "More hydrated, nourished, and replenished skin",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_CMdVrc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/plump-icon.png",
+            "title": "Plumper, more smooth skin",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_Ptbkyn",
+        "column_yfLRwT",
+        "column_RPe4dd",
+        "column_CMdVrc"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "custom_class": "",
+        "title": "Benefits",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "color_scheme": "scheme-5",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 52,
+        "padding_bottom": 24
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h1",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "color_scheme": "scheme-202290dc-0857-4169-81cd-25aa3c49d6d0",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "rich_text_ncmt6x": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_ReHp4g": {
+          "type": "heading",
+          "settings": {
+            "heading": "Happy Customers Worldwide",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ReHp4g"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 12
+      }
+    },
+    "1749620994256b4c9a": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "collapsible_content_VnEj8i": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_UyEnGK": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is your returns policy?",
+            "icon": "check_mark",
+            "row_content": "<p>We offer a 60-day return policy for your peace of mind. If your purchase was made within the last 60 days, you can return it for a refund. To be eligible, items must be unopened, unused, and in their original, re-saleable condition, including all tamper-resistant seals, packaging, and cellophane intact. For detailed information, please visit our page.<br/><br/></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_9qAKhQ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I return a faulty, incorrect, or damaged item?",
+            "icon": "check_mark",
+            "row_content": "<p>In the rare event that you receive a defective, incorrect, or damaged item (that wasn't advertised as such), Once you receive it, please print and attach the label to your package and drop it off at your local post office. To help us process claims for damages, we may request photographic evidence. For detailed information, please visit our page.<br/><br/></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_eKDwc3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are delivery charges refundable?",
+            "icon": "check_mark",
+            "row_content": "<p>Unless the item(s) is found faulty, delivery charges are non-refundable. The return shipping cost will be deducted from the total amount of the refund.​For detailed information, please visit our page.<br/><br/></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_ic6Fnk": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How long does it take to process a refund?",
+            "icon": "check_mark",
+            "row_content": "<p>Once we receive and inspect your return, we'll send you an email to confirm its arrival. If your refund is approved, a credit will be automatically applied to your credit card or original method of payment within 10 working days of receiving your returned item(s). For detailed information, please visit our page.<br/><br/></p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_UyEnGK",
+        "collapsible_row_9qAKhQ",
+        "collapsible_row_eKDwc3",
+        "collapsible_row_ic6Fnk"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "FAQs",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "container_color_scheme": "scheme-202290dc-0857-4169-81cd-25aa3c49d6d0",
+        "color_scheme": "scheme-202290dc-0857-4169-81cd-25aa3c49d6d0",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 52,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_fTaLwG": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_BpKbPB": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/shipping.svg",
+            "title": "FREE SHIPPING",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_CGqVT3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/payments.svg",
+            "title": "SECURE PAYMENTS",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_myANpW": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/genuine.svg",
+            "title": "GENUINE PRODUCTS",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_QzCkKn": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/refund.png",
+            "title": "MONEY BACK GUARANTEE",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_BpKbPB",
+        "column_CGqVT3",
+        "column_myANpW",
+        "column_QzCkKn"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "custom_class": "shipping_sec",
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "color_scheme": "scheme-202290dc-0857-4169-81cd-25aa3c49d6d0",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
+    },
+    "newsletter_4GpAfM": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_a6k6QX": {
+          "type": "heading",
+          "settings": {
+            "heading": "Monthly Newsletter",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_TzxeeK": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Sign up for the latest news and discounts.</p>"
+          }
+        },
+        "email_form_VNR6Az": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_a6k6QX",
+        "paragraph_TzxeeK",
+        "email_form_VNR6Az"
+      ],
+      "name": "t:sections.newsletter.presets.name",
+      "settings": {
+        "color_scheme": "scheme-5",
+        "full_width": true,
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_fMeerb",
+    "multicolumn_KHU8Uw",
+    "related-products",
+    "rich_text_ncmt6x",
+    "1749620994256b4c9a",
+    "collapsible_content_VnEj8i",
+    "multicolumn_fTaLwG",
+    "newsletter_4GpAfM"
+  ]
+}

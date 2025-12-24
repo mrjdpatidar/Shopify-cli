@@ -1,0 +1,503 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_gkhKdt": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_UBe874": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/images_11.webp",
+            "image_overlay_opacity": 0,
+            "heading": "Three facialtreatments, one tool,undeniable results",
+            "heading_size": "h1",
+            "subheading": "Science-backed skin care technology for healthy, younger-looking skin.",
+            "button_label": "Shop Now",
+            "link": "#",
+            "button_style_secondary": false,
+            "show_text_box": false,
+            "box_align": "middle-left",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "color_scheme": "scheme-460407bf-35ef-4442-b032-fb5fdfacd4f8"
+          }
+        },
+        "slide_rEGbJf": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/images_14.webp",
+            "image_overlay_opacity": 0,
+            "heading": "Three facialtreatments, one tool,undeniable results",
+            "heading_size": "h1",
+            "subheading": "Science-backed skin care technology for healthy, younger-looking skin.",
+            "button_label": "Shop Now",
+            "link": "#",
+            "button_style_secondary": false,
+            "show_text_box": false,
+            "box_align": "middle-left",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "color_scheme": "scheme-460407bf-35ef-4442-b032-fb5fdfacd4f8"
+          }
+        },
+        "slide_PVNr46": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/images_16.webp",
+            "image_overlay_opacity": 0,
+            "heading": "Three facialtreatments, one tool,undeniable results",
+            "heading_size": "h1",
+            "subheading": "Science-backed skin care technology for healthy, younger-looking skin.",
+            "button_label": "Shop Now",
+            "link": "#",
+            "button_style_secondary": false,
+            "show_text_box": false,
+            "box_align": "middle-left",
+            "text_alignment": "left",
+            "text_alignment_mobile": "left",
+            "color_scheme": "scheme-460407bf-35ef-4442-b032-fb5fdfacd4f8"
+          }
+        }
+      },
+      "block_order": [
+        "slide_UBe874",
+        "slide_rEGbJf",
+        "slide_PVNr46"
+      ],
+      "name": "t:sections.slideshow.presets.name",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "change_slides_speed": 7,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "multicolumn_t8PJXK": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_3mLiB8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/original-sweet-112325.webp",
+            "title": "",
+            "text": "",
+            "link_label": "FRAGRANCE",
+            "link": "shopify://collections/fragrance"
+          }
+        },
+        "column_XiPTwn": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/images_1_1.webp",
+            "title": "",
+            "text": "",
+            "link_label": "HAIR CARE",
+            "link": "shopify://collections/hair-care"
+          }
+        },
+        "column_r4jBnd": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/images_2_41bdf521-92d1-43d9-9b67-16f2455e3f20.webp",
+            "title": "",
+            "text": "",
+            "link_label": "MAKEUP",
+            "link": "shopify://collections/makeup"
+          }
+        },
+        "column_8rD4Vg": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/images_1_31a72ea3-14c7-4c7a-8832-fb9218179d7f.webp",
+            "title": "",
+            "text": "",
+            "link_label": "SKIN CARE",
+            "link": "shopify://collections/skin-care"
+          }
+        }
+      },
+      "block_order": [
+        "column_3mLiB8",
+        "column_XiPTwn",
+        "column_r4jBnd",
+        "column_8rD4Vg"
+      ],
+      "custom_css": [],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "custom_class": "category_sec",
+        "title": "Shop by Collections",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "circle",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "color_scheme": "scheme-202290dc-0857-4169-81cd-25aa3c49d6d0",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 60,
+        "padding_bottom": 0
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "all",
+        "products_to_show": 8,
+        "title": "Bestsellers",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 4,
+        "enable_desktop_slider": true,
+        "full_width": true,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "color_scheme": "scheme-202290dc-0857-4169-81cd-25aa3c49d6d0",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 52,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_TDiQfx": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_DNNtN4": {
+          "type": "heading",
+          "settings": {
+            "heading": "What's Included",
+            "heading_size": "h1"
+          }
+        },
+        "text_4MyBnd": {
+          "type": "text",
+          "settings": {
+            "text": "<ol><li>Vita Trio device </li><li>Exfoliating diamond tip </li><li>Pore extraction tip</li><li>Kinetic toning tip </li><li>50 replacement filters</li><li>Renew serum (4.5mL) </li><li>Brighten serum (4.5mL) </li><li>Refine serum (4.5mL)</li><li>USB-C charging cable </li><li>Storage case</li></ol>",
+            "text_style": "body"
+          }
+        },
+        "button_AJbQMt": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now",
+            "button_link": "shopify://products/vita-trio",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_DNNtN4",
+        "text_4MyBnd",
+        "button_AJbQMt"
+      ],
+      "custom_css": [
+        ".image-with-text__grid {border-radius: 0px;}"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "custom_class": "home-image-text whats_included",
+        "image": "shopify://shop_images/images_3_b14f0135-d1bf-445b-89d7-936382a82189.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-202290dc-0857-4169-81cd-25aa3c49d6d0",
+        "color_scheme": "scheme-202290dc-0857-4169-81cd-25aa3c49d6d0",
+        "padding_top": 20,
+        "padding_bottom": 60
+      }
+    },
+    "image_banner_PwGnai": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_cGMfWW": {
+          "type": "heading",
+          "settings": {
+            "heading": "Three facialtreatments",
+            "heading_size": "h1"
+          }
+        },
+        "text_fheQxr": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "buttons_HbabNJ": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "About Auria",
+            "button_link_1": "shopify://pages/contact",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_cGMfWW",
+        "text_fheQxr",
+        "buttons_HbabNJ"
+      ],
+      "custom_css": [
+        ".banner__content {padding: 0;}"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/images_13.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": false
+      }
+    },
+    "featured_collection_EnpY9H": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "all",
+        "products_to_show": 8,
+        "title": "Limited Stock Deal",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 4,
+        "enable_desktop_slider": true,
+        "full_width": true,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "color_scheme": "scheme-202290dc-0857-4169-81cd-25aa3c49d6d0",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 60,
+        "padding_bottom": 0
+      }
+    },
+    "testimonials_t9LNdY": {
+      "type": "testimonials",
+      "blocks": {
+        "review_erXzcR": {
+          "type": "review",
+          "settings": {
+            "image": "shopify://shop_images/images_3_39ffb155-3d29-44c5-aaf9-9852c5d866c0.png",
+            "head": "The most gorgeous",
+            "reviewer_name": "Liv",
+            "reviewer_age": 29,
+            "review_text": "The most stunning candle inside and out, I've tried to gatekeep it unsuccessfully as everyone always asks what I have lit and it's always Hacienda!",
+            "star_rating": 5
+          }
+        },
+        "review_kKExER": {
+          "type": "review",
+          "settings": {
+            "image": "shopify://shop_images/images_2_ffe6dae9-0593-4f7a-965c-165d4c472c0f.png",
+            "head": "Perfect burgundy eyeliner",
+            "reviewer_name": "Jess",
+            "reviewer_age": 31,
+            "review_text": "I like using coloured eyeliners and I love this one. The shade is perfect and is subtler than using a black eyeliner. Love how it lasts and the effect on the eyes. Goes perfectly with pink eye looks!",
+            "star_rating": 5
+          }
+        },
+        "review_6CVr4w": {
+          "type": "review",
+          "settings": {
+            "image": "shopify://shop_images/images_5_587ce462-bdbc-4021-9f78-aac499ad7799.png",
+            "head": "Great Lipstick",
+            "reviewer_name": "Kim",
+            "reviewer_age": 29,
+            "review_text": "Great colour pay off, not too drying but petal is not the same petal shade as the rest of the collection :(",
+            "star_rating": 5
+          }
+        },
+        "review_e88Epx": {
+          "type": "review",
+          "settings": {
+            "image": "shopify://shop_images/images_4_ef9c6249-ae06-4f3c-bdd5-c8f7868d68ed.png",
+            "head": "Great, but heavy hair mask",
+            "reviewer_name": "Angela R.",
+            "reviewer_age": 27,
+            "review_text": "I bought this as I love the Petal blush stick. The colour is great, and I do like it, but I find it a touch drying. I'd give it 4.5 stars if possible",
+            "star_rating": 5
+          }
+        }
+      },
+      "block_order": [
+        "review_erXzcR",
+        "review_kKExER",
+        "review_6CVr4w",
+        "review_e88Epx"
+      ],
+      "custom_css": [
+        ".image-with-text__grid {border-radius: 0px;}"
+      ],
+      "name": "Testimonial",
+      "settings": {
+        "custom_class": "testmonial-wrapper",
+        "image": "shopify://shop_images/images_3_39ffb155-3d29-44c5-aaf9-9852c5d866c0.png",
+        "height": "medium",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-202290dc-0857-4169-81cd-25aa3c49d6d0",
+        "color_scheme": "scheme-202290dc-0857-4169-81cd-25aa3c49d6d0",
+        "padding_top": 20,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_EtwKaK": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_PRrBtF": {
+          "type": "column",
+          "settings": {
+            "title": "FREE SHIPPING",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_qUWhKG": {
+          "type": "column",
+          "settings": {
+            "title": "SECURE PAYMENTS",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_4pjFFg": {
+          "type": "column",
+          "settings": {
+            "title": "GENUINE PRODUCTS",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_QtJUiY": {
+          "type": "column",
+          "settings": {
+            "title": "MONEY BACK GUARANTEE",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_PRrBtF",
+        "column_qUWhKG",
+        "column_4pjFFg",
+        "column_QtJUiY"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "custom_class": "shipping_sec",
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "color_scheme": "scheme-202290dc-0857-4169-81cd-25aa3c49d6d0",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
+    },
+    "newsletter_WR3PnQ": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_3gq6Y8": {
+          "type": "heading",
+          "settings": {
+            "heading": "Monthly Newsletter",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_JjQpcw": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Sign up for the latest news and discounts.</p>"
+          }
+        },
+        "email_form_DxjYfw": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_3gq6Y8",
+        "paragraph_JjQpcw",
+        "email_form_DxjYfw"
+      ],
+      "name": "t:sections.newsletter.presets.name",
+      "settings": {
+        "color_scheme": "scheme-5",
+        "full_width": true,
+        "padding_top": 60,
+        "padding_bottom": 12
+      }
+    }
+  },
+  "order": [
+    "slideshow_gkhKdt",
+    "multicolumn_t8PJXK",
+    "featured_collection",
+    "image_with_text_TDiQfx",
+    "image_banner_PwGnai",
+    "featured_collection_EnpY9H",
+    "testimonials_t9LNdY",
+    "multicolumn_EtwKaK",
+    "newsletter_WR3PnQ"
+  ]
+}
