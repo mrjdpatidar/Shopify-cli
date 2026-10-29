@@ -1,120 +1,178 @@
-# Shopify CLI Setup Guide
+# Shopify Theme Development with Shopify CLI
 
-This repository is dedicated to **Shopify CLI setup and usage** for Shopify theme, app, and Hydrogen development.  
-It explains installation, authentication, development store connection, and commonly used Shopify CLI commands.
+A Shopify theme development demo with a practical guide to working locally using Shopify CLI.
 
----
+This repository contains theme files organized into Shopify's standard directories, alongside instructions for connecting a store, previewing changes, running theme checks, and uploading an unpublished theme.
 
-## 🚀 What is Shopify CLI?
+> This is a personal development repository. It is not the official Shopify CLI project.
 
-Shopify CLI is an official command-line tool that helps developers:
-- Create and manage Shopify themes and apps
-- Build and run Hydrogen storefronts
-- Connect to Shopify Partner accounts and development stores
-- Run Shopify projects locally
+## Project Scope
 
----
+This project focuses on Liquid-based Shopify theme development.
 
-## 🧰 Prerequisites
+It provides a workspace for working with:
 
-Before starting, ensure you have:
-- Node.js (v18 or later)
-- Git installed
-- Shopify Partner account
-- Shopify development store
+- Liquid layouts, sections, and snippets.
+- Page templates.
+- CSS and JavaScript assets.
+- Theme settings and translations.
+- Local development previews using Shopify CLI.
 
----
+Shopify app development and Hydrogen storefronts are separate workflows and are outside the scope of this guide.
 
-## 📦 Install Shopify CLI
+## Technology Stack
 
-Install Shopify CLI globally using npm:
+| Technology | Purpose |
+| --- | --- |
+| Shopify Liquid | Storefront templates and dynamic content |
+| HTML | Page structure |
+| CSS | Styling and layout |
+| JavaScript | Storefront interactions |
+| Shopify CLI | Theme preview, validation, and synchronization |
+| Git & GitHub | Version control |
+
+## Repository Structure
+
+| Directory | Purpose |
+| --- | --- |
+| `assets/` | Stylesheets, JavaScript, images, and other theme assets |
+| `config/` | Theme settings schema and configuration |
+| `layout/` | Shared layouts used by templates |
+| `locales/` | Storefront and theme editor translations |
+| `sections/` | Theme sections and their settings |
+| `snippets/` | Reusable Liquid components |
+| `templates/` | Templates for storefront page types |
+
+## Prerequisites
+
+Before starting, you need:
+
+- A Node.js version supported by the current Shopify CLI.
+- npm.
+- Git.
+- A Shopify store you are authorized to access.
+- An account with the required theme permissions.
+
+For current installation requirements, see the
+[official Shopify CLI documentation](https://shopify.dev/docs/storefronts/themes/tools/cli).
+
+## Getting Started
+
+### 1. Clone the Repository
+
 ```bash
-npm install -g @shopify/cli
+git clone https://github.com/mrjdpatidar/Shopify-cli.git
+cd Shopify-cli
 ```
 
-Verify installation:
+### 2. Install Shopify CLI
+
+```bash
+npm install -g @shopify/cli@latest
+```
+
+Verify the installation:
+
 ```bash
 shopify version
 ```
 
----
+### 3. Start a Development Preview
 
-## 🔐 Login to Shopify
+Replace the example domain with your store's `.myshopify.com` domain:
 
-Authenticate your Shopify account:
 ```bash
-shopify login
+shopify theme dev --store your-store.myshopify.com
 ```
 
-Login and connect to a specific store:
+Follow the authentication prompts if requested.
+
+The command starts a development preview connected to your store. Use the URLs shown in the terminal to preview the theme and access the theme editor.
+
+Store products, collections, navigation, and other content come from the connected store. They are not included in this repository.
+
+### 4. Make Changes
+
+Edit the relevant theme files:
+
+- Styling and interactions in `assets/`.
+- Sections in `sections/`.
+- Reusable components in `snippets/`.
+- Page templates in `templates/`.
+- Shared layouts in `layout/`.
+
+While the development command is running, Shopify CLI updates the preview as supported files change.
+
+### 5. Run Theme Check
+
 ```bash
-shopify login --store your-store-name.myshopify.com
+shopify theme check
 ```
 
----
+Review the reported issues and address applicable errors and warnings.
 
-## 🏪 Create or Connect a Development Store
+### 6. Upload an Unpublished Theme
 
-Create or select a development store from your Shopify Partner account:
+To upload the local theme for review:
+
 ```bash
-shopify dev
+shopify theme push --unpublished --store your-store.myshopify.com
 ```
 
----
+Follow the prompts to create an unpublished theme.
 
-## 🛠 Common Shopify CLI Commands
+Review its preview in Shopify Admin before deciding whether to publish it. Uploading an unpublished theme does not automatically make it the live storefront.
 
-List all available commands:
-```bash
-shopify help
-```
+## Useful Commands
 
-Create a Shopify app:
-```bash
-shopify app create
-```
+| Command | Purpose |
+| --- | --- |
+| `shopify version` | Display the installed CLI version |
+| `shopify theme dev --store your-store.myshopify.com` | Start a development preview |
+| `shopify theme check` | Check theme code |
+| `shopify theme list --store your-store.myshopify.com` | List store themes |
+| `shopify theme info` | Inspect the current theme environment |
+| `shopify theme push --unpublished --store your-store.myshopify.com` | Upload an unpublished theme |
+| `shopify auth logout` | Sign out of the current account |
+| `shopify theme --help` | View available theme commands |
 
-Create a Shopify Hydrogen storefront:
-```bash
-shopify hydrogen init
-```
+## Suggested Review Checklist
 
-Run a Shopify project locally:
-```bash
-shopify dev
-```
+Before sharing or uploading changes:
 
----
+- Review desktop and mobile layouts.
+- Check navigation and links.
+- Test product variant selection and cart interactions where implemented.
+- Review empty states and missing content.
+- Check the browser console for JavaScript errors.
+- Run Theme Check.
+- Confirm the intended store and theme before uploading.
 
-## 📁 Use Cases
+## Project Status
 
-This repository is useful for:
-- Learning Shopify CLI workflows
-- Practicing store authentication and setup
-- Preparing the environment for Hydrogen development
-- Understanding Shopify's modern development tooling
+This repository is a development demo.
 
----
+It should not be treated as a production-ready theme without reviewing its code, store configuration, and storefront behavior.
 
-## 📌 Notes
+## Official References
 
-- Always use Node.js v18 or later
-- Run Shopify CLI commands inside the project directory
-- Ensure correct store permissions are enabled
-- Clear CLI cache if login issues occur
+- [Shopify CLI for Themes](https://shopify.dev/docs/storefronts/themes/tools/cli)
+- [Shopify Theme Architecture](https://shopify.dev/docs/storefronts/themes/architecture)
+- [Shopify Liquid Reference](https://shopify.dev/docs/api/liquid)
+- [Shopify CLI Theme Commands](https://shopify.dev/docs/api/shopify-cli/theme)
 
----
-
-## 🧑‍💻 Tech Stack
-
-- Shopify CLI
-- Node.js
-- Git
-- Shopify Partner Dashboard
-
----
-
-## 📎 Author
+## Author
 
 **Jagdish Patidar**  
-Shopify Developer
+Shopify & Full-Stack Developer  
+Founder & CEO — **Drunall Technologies**
+
+I build custom Shopify experiences, business applications, and workflow automation.
+
+- [Drunall Technologies](https://www.drunall.com)
+- [Portfolio](https://jdpatidar.com)
+- [LinkedIn](https://www.linkedin.com/in/jdpatidar/)
+
+---
+
+Independent project by Jagdish Patidar. Not affiliated with or endorsed by Shopify.
